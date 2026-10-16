@@ -22,3 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Gradle and local-only CS2 conversion output
+.gradle/
+build/
+run/
+.tools/
+local-assets/
+dist/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Generated CS2 artwork copied into the resource tree for local builds
+src/main/resources/assets/cs2viewmodel/icon.png
+src/main/resources/assets/cs2viewmodel/textures/gui/skins/
+
+# Local scratch files
+tools/__pycache__/
+exceptions.txt

@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "yt.yegla.cs2viewmodel.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["FirstPersonHandsAndItemsRendererMixin", "MinecraftMixin", "PauseScreenMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

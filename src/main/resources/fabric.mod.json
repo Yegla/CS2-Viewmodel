@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cs2viewmodel",
+  "version": "${version}",
+  "name": "CS2 Viewmodel",
+  "description": "CS2 first-person arms and weapons with extensive viewmodel controls.",
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/cs2viewmodel/icon.png",
+  "authors": [
+    {
+      "name": "Yegla",
+      "contact": {
+        "homepage": "https://youtube.com/@Yegla"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://youtube.com/@Yegla"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": ["yt.yegla.cs2viewmodel.Cs2ViewmodelClient"]
+  },
+  "mixins": ["cs2viewmodel.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}
