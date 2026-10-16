@@ -1,5 +1,7 @@
 # CS2 Viewmodel
 
+![image](https://cdn.modrinth.com/data/VdgHXf0L/images/497e616b71186a6c6c85f31452a569fd96d6a120.png)
+
 This features a working skinchanger (Gloves, Knives, Sleeves, AK-47) menu alongside an extensive config tab with tons of ways to customize your experience with this mod.
 
 ## Build from your CS2 installation
